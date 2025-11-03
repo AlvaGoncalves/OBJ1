@@ -1,0 +1,20 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+
+import java.util.Date;
+
+public class Envio_Local extends Envio {
+
+	
+
+	public Envio_Local(String o, String d, Date f, int p) {
+		super(o, d, f, p);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double calcularCosto() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

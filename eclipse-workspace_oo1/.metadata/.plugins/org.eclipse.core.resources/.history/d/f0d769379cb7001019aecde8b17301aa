@@ -1,0 +1,31 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+public class Envio_Local extends Envio {
+	private boolean envioRapido;
+	
+
+	public Envio_Local(String o, String d, LocalDate f, int p, boolean e) {
+		super(o, d, f, p);
+		this.setEnvioRapido(e);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double calcularCosto() {
+		if (this.envioRapido)
+				return 1500;
+		else return 1000;
+	}
+
+	public boolean isEnvioRapido() {
+		return envioRapido;
+	}
+
+	public void setEnvioRapido(boolean envioRapido) {
+		this.envioRapido = envioRapido;
+	}
+
+}

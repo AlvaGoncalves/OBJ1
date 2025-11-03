@@ -1,0 +1,9 @@
+package ar.edu.unlp.info.oo1.ejercicio14_DateLapse;
+
+public class DateLapse2 {
+
+	public DateLapse2() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

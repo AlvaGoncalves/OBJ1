@@ -1,0 +1,13 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+
+public class Individuo extends Cliente {
+
+	public Individuo(String n, String d) {
+		super(n, d);
+		// TODO Auto-generated constructor stub
+	}
+		
+	
+	
+	
+}

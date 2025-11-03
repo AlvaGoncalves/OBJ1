@@ -1,0 +1,30 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+
+import java.util.Date;
+
+public class Envio_Interurbano extends Envio{
+	private double distanciaKM;
+	
+	public Envio_Interurbano(String o, String d, Date f, int p, double dist) {
+		super(o, d, f, p);
+		this.setDistanciaKM(dist);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double calcularCosto() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double getDistanciaKM() {
+		return distanciaKM;
+	}
+
+	public void setDistanciaKM(double distanciaKM) {
+		this.distanciaKM = distanciaKM;
+	}
+
+	
+
+}

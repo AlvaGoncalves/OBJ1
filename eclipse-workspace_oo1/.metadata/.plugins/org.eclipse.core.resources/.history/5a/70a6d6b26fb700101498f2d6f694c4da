@@ -1,0 +1,30 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+
+import java.util.Date;
+
+public class Individuo extends Cliente {
+	private int dni;
+	
+	public Individuo(String n, String d) {
+		super(n, d);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double montoAPagar(Date periodo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int getDni() {
+		return dni;
+	}
+
+	public void setDni(int dni) {
+		this.dni = dni;
+	}
+		
+	
+	
+	
+}

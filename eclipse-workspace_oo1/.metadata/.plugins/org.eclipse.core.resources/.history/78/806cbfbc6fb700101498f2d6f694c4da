@@ -1,0 +1,28 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+
+import java.util.Date;
+
+public class Corporativo extends Cliente {
+	private int cuit;
+	
+
+	public Corporativo(String n, String d) {
+		super(n, d);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double montoAPagar(Date periodo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int getCuit() {
+		return cuit;
+	}
+
+	public void setCuit(int cuit) {
+		this.cuit = cuit;
+	}
+
+}

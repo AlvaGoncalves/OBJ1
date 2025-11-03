@@ -1,0 +1,15 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+
+import java.util.Date;
+
+public class Corporativo extends Cliente {
+
+	
+
+	@Override
+	public double montoAPagar(Date periodo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

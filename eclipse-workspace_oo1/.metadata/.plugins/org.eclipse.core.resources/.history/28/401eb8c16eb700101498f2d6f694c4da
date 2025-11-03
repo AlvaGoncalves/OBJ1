@@ -1,0 +1,9 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+
+public class Envio_Internacional implements Envio {
+
+	public Envio_Internacional() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

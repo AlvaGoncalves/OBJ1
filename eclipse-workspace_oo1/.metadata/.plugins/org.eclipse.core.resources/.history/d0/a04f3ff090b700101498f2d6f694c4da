@@ -1,0 +1,68 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
+
+
+public abstract class Cliente {
+	private String nombre;
+	private String direccion;
+	private List<Envio> envios;
+	
+	
+	
+	public Cliente(String n, String d) {
+		this.setDireccion(d);
+		this.setNombre(n);
+		this.setEnvios(new LinkedList<Envio>());
+	}
+
+
+	public void agregarEnvios(Envio e) {
+		this.envios.add(e);
+	}
+	
+	public double montoaPagar
+	
+	
+	public abstract double montoAPagarConDescuento(Date periodo);
+	
+	
+	
+	public String getNombre() {
+		return nombre;
+	}
+
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+
+
+	public List<Envio> getEnvios() {
+		return envios;
+	}
+
+
+	public void setEnvios(List<Envio> envios) {
+		this.envios = envios;
+	}
+	
+	
+	
+	
+	
+}
