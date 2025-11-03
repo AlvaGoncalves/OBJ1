@@ -1,0 +1,49 @@
+package ar.edu.unlp.info.oo1.ejercicio21_servicioDePaquetes;
+
+import java.time.LocalDate;
+
+public abstract class Envio {
+	private String orden;
+	private String destino;
+	private LocalDate fecha;
+	private int peso;
+	
+	
+	public Envio(String o, String d, LocalDate f, int p) {
+		this.setDestino(d);
+		this.setFecha(f);
+		this.setOrden(o);
+		this.setPeso(p);
+	}
+	
+	
+	public abstract double calcularCosto();
+	
+	public String getOrden() {
+		return orden;
+	}
+	public void setOrden(String orden) {
+		this.orden = orden;
+	}
+	public String getDestino() {
+		return destino;
+	}
+	public void setDestino(String destino) {
+		this.destino = destino;
+	}
+	public LocalDate getFecha() {
+		return fecha;
+	}
+	public void setFecha(LocalDate fecha) {
+		this.fecha = fecha;
+	}
+	public int getPeso() {
+		return peso;
+	}
+	public void setPeso(int peso) {
+		this.peso = peso;
+	}
+	
+	
+	
+}
